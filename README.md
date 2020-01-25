@@ -23,4 +23,4 @@ desc=Camera Driveway just saw a car.
 url=https://home.camect.com/home/xxxxxxxx/camera?id=yyyyyyy&ts=1556228517560
 </pre>
 
-Use the camect-home-assistant-custom_card for Lovelace at https://github.com/pfunkmallone/camect-home-assistant-custom_card
+Use the camect-home-assistant-custom_card for Lovelace at https://github.com/camect/camect-home-assistant-custom_card
