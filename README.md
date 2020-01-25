@@ -16,6 +16,8 @@ camect:
     id: (optional)    // provide this is you have multiple device so you could
                       // tell which camera is from which home.
 ```
+Your camera_ids can be found in the Camect web GUI. Click the camera settings icon, and select the **<sup>i</sup>** next to the Camera Name header. You will find the id for that camera in the pop-up window.
+
 - If you are using lovelace, put following into $ha_config_dir/ui-lovelace.yaml
 ```yaml
 resources:
