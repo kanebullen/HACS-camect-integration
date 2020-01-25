@@ -6,7 +6,7 @@ Please follow the following instructions:
 - Copy file "camect-card.js" to $ha_config_dir/www.
 - Copy folder "camect" to $ha_config_dir/custom_components.
 - Add following to $ha_config_dir/configuration.yaml
-<pre>
+```yaml
 camect:
   - host: YOUR_CAMECT_HOME_LOCAL_IP
     port: 443
@@ -15,9 +15,9 @@ camect:
     camera_ids: YOUR_CAMERA_IDS_SEPARATED_BY_COMMA
     id: (optional)    // provide this is you have multiple device so you could
                       // tell which camera is from which home.
-</pre>
+```
 - If you are using lovelace, put following into $ha_config_dir/ui-lovelace.yaml
-<pre>
+```yaml
 resources:
   - url: /local/camect-card.js
     type: module
@@ -27,12 +27,12 @@ views:
     cards:
       - type: "custom:camect-card"
         entity: camera.camect_YOUR_CAMERA_ID
-</pre>
+```
   If you don't have ui-lovelace.yaml yet, add the following into $ha_config_dir/configuration.yaml
-<pre>
+```yaml
 lovelace:
    mode: yaml
-</pre>
+```
 
 ## Listen to events
 <pre>
