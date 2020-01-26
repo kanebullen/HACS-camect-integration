@@ -1,4 +1,9 @@
-Once installed, you must still add following to $ha_config_dir/configuration.yaml
+## What is this?
+This is a simple proof-of-concept which allows users to do basic integration between their [Home-Assistant](https://www.home-assistant.io/) and [Camect](https://camect.com/) using the [Home-Assistant Community Store](https://hacs.xyz/)
+
+I did NOT create the integration. I simply created *this* repo to simplify the integration through the use of HACS.
+
+Once you've installed this via HACS, you must still add following to $ha_config_dir/configuration.yaml
 
 ```yaml
 camect:
@@ -23,4 +28,4 @@ desc=Camera Driveway just saw a car.
 url=https://home.camect.com/home/xxxxxxxx/camera?id=yyyyyyy&ts=1556228517560
 </pre>
 
-Use the camect-home-assistant-custom_card for Lovelace at https://github.com/camect/camect-home-assistant-custom_card
+To view the Camect streams within the Lovelace interface, use the HACS-camect-home-assistant-custom_card for Lovelace at https://github.com/pfunkmallone/HACS-camect-home-assistant-custom_card
