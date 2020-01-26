@@ -12,15 +12,4 @@ camect:
 ```
 Your camera_ids can be found in the Camect web GUI. Click the camera settings icon, and select the **<sup>i</sup>** next to the Camera Name header. You will find the id for that camera in the pop-up window.
 
-## Listen to events
-<pre>
-hass.bus.listen('camect_event', lambda evt: print(evt))
-</pre>
-Sample event:
-<pre>
-type=alert
-desc=Camera Driveway just saw a car.
-url=https://home.camect.com/home/xxxxxxxx/camera?id=yyyyyyy&ts=1556228517560
-</pre>
-
 Use the camect-home-assistant-custom_card for Lovelace at https://github.com/camect/camect-home-assistant-custom_card
