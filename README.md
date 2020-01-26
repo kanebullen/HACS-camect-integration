@@ -1,7 +1,7 @@
 ## What is this?
-This is a simple proof-of-concept which allows users to do basic integration between their [Home-Assistant](https://www.home-assistant.io/) and [Camect](https://camect.com/) using the [Home-Assistant Community Store](https://hacs.xyz/)
+This is a simple proof-of-concept which allows users to do basic integration between their [Home-Assistant](https://www.home-assistant.io/) and [Camect](https://camect.com/) using the [Home-Assistant Community Store (aka HACCS)](https://hacs.xyz/)
 
-I did NOT create the integration. I simply created *this* repo to simplify the integration through the use of HACS.
+I did NOT create the integration. I simply created *this* repo to simplify the installation of the integration through the use of HACS.
 
 Once you've installed this via HACS, you must still add following to $ha_config_dir/configuration.yaml
 
