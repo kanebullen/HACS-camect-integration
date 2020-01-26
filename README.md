@@ -28,4 +28,4 @@ desc=Camera Driveway just saw a car.
 url=https://home.camect.com/home/xxxxxxxx/camera?id=yyyyyyy&ts=1556228517560
 </pre>
 
-To view the Camect streams within the Lovelace interface, use the HACS-camect-home-assistant-custom_card for Lovelace at https://github.com/pfunkmallone/HACS-camect-home-assistant-custom_card
+To view the Camect streams within the Lovelace interface, use the HACS-camect-custom_card for Lovelace at https://github.com/pfunkmallone/HACS-camect-custom_card
