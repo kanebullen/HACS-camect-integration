@@ -2,6 +2,5 @@
   "name": "Camect Integration",
   "country": "US",
   "domains": "camera",
-  "homeassistant": "0.99.9",
-  "render_readme": true
+  "homeassistant": "0.99.9"
 }
