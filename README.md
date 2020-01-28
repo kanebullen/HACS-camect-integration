@@ -24,8 +24,8 @@ camect:
     username: admin
     password: admin_PASSWORD
     camera_ids: YOUR_CAMERA_IDS_SEPARATED_BY_COMMA
-    id: (optional)    // provide this is you have multiple device so you could
-                      // tell which camera is from which home.
+    id: (optional)    // provide this if you have multiple Camect devices so you could
+                      // tell which camera is from which Camect device.
 ```
 **NOTE** Your camera_ids can be found in the Camect web GUI. Click the camera settings icon, and select the **<sup>i</sup>** next to the Camera Name header. You will find the id for that camera in the pop-up window.
 - Check your config
