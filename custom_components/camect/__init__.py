@@ -8,7 +8,7 @@ camect:
       username: admin
       password: XXXXX
       camera_ids: aaa,bbbb
-      id: (optional)  // provide this if you have multiple Camect devices so you could
+      id: (optional)  // provide this if you have multiple Camect devices so you can
                       // tell which camera is from which Camect device.
 """
 import voluptuous as vol
