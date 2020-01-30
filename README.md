@@ -10,7 +10,7 @@ The integration creates a **`camect.change_op_mode`** service. This service allo
 
 ## Prerequisites:
 - A [Camect](https://camect.com) Home Security recorder
-- [Home Assistant](https://home-assistant.io)
+- [Home Assistant or Home Assistant Core](https://home-assistant.io)
 - [Home Assistant Community Store (HACS)](https://hacs.xyz)
 
 ## Installation Steps:
@@ -24,8 +24,8 @@ camect:
     username: admin
     password: admin_PASSWORD
     camera_ids: YOUR_CAMERA_IDS_SEPARATED_BY_COMMA
-    id: (optional)    // provide this if you have multiple Camect devices so you could
-                      // tell which camera is from which Camect device.
+    id: (optional)    // provide this is you have multiple device so you can
+                      // tell which camera is from which home.
 ```
 **NOTE** Your camera_ids can be found in the Camect web GUI. Click the camera settings icon, and select the **<sup>i</sup>** next to the Camera Name header. You will find the id for that camera in the pop-up window.
 - Check your config
