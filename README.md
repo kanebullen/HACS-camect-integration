@@ -1,6 +1,6 @@
 # HACS-camect-integration
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs) 
-[![HACS-camect-custom_card](https://img.shields.io/github/v/release/pfunkmallone/HACS-camect-integration.svg?1)](https://github.com/pfunkmallone/HACS-camect-integration) ![Maintenance](https://img.shields.io/maintenance/yes/2020.svg)
+[![HACS-camect-integration](https://img.shields.io/github/v/release/pfunkmallone/HACS-camect-integration.svg?1)](https://github.com/pfunkmallone/HACS-camect-integration) ![Maintenance](https://img.shields.io/maintenance/yes/2020.svg)
 
 ## What is this?
 This is a simple proof-of-concept which allows users to do very basic integration between their [Home-Assistant](https://www.home-assistant.io/) and [Camect](https://camect.com/) using the [Home-Assistant Community Store (aka HACS)](https://hacs.xyz/)
