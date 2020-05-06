@@ -1,8 +1,9 @@
 # HACS-camect-integration
-# What is this?
-This is a simple proof-of-concept which allows users to do very basic integration between their [Home-Assistant](https://www.home-assistant.io/) and [Camect](https://camect.com/) using the [Home-Assistant Community Store (aka HACS)](https://hacs.xyz/)
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs) 
+[![HACS-camect-custom_card](https://img.shields.io/github/v/release/pfunkmallone/HACS-camect-integration.svg?1)](https://github.com/pfunkmallone/HACS-camect-integration) ![Maintenance](https://img.shields.io/maintenance/yes/2020.svg)
 
-**I did NOT create this integration**. I simply created *this* repo to simplify the installation of the integration via [Home Assistant Community Store (aka HACS)](https://hacs.xyz/). The original proof-of-concept integration (written by one of the Camect developers) is located [HERE](https://github.com/camect/home-assistant-integration). The Camect developers don't use Home Assistant so they can't prioritize improvements on the integration or custom card. Ideally, they hope that users in the Home Assistant community will take on the responsibility to improve it and keep it up-to-date with Home Assistant. **I am not a developer**, so I'm incapable of doing so.
+## What is this?
+This is a simple proof-of-concept which allows users to do very basic integration between their [Home-Assistant](https://www.home-assistant.io/) and [Camect](https://camect.com/) using the [Home-Assistant Community Store (aka HACS)](https://hacs.xyz/)
 
 The integration creates a **`camera`** entity. Unforunately, the camera does not support "stream" mode, so it cannot be used to broadcast to Chromecast devices via this integration.
 
@@ -33,3 +34,5 @@ camect:
 
 
 To view the Camect streams within the Lovelace interface, use the HACS-camect-custom_card for Lovelace at https://github.com/pfunkmallone/HACS-camect-custom_card
+
+**I did NOT create this integration**. I simply created *this* repo to simplify the installation of the integration via [Home Assistant Community Store (aka HACS)](https://hacs.xyz/). The original proof-of-concept integration (written by one of the Camect developers) is located [HERE](https://github.com/camect/home-assistant-integration). The Camect developers don't use Home Assistant so they can't prioritize improvements on the integration or custom card. Ideally, they hope that users in the Home Assistant community will take on the responsibility to improve it and keep it up-to-date with Home Assistant. **I am not a developer**, so I'm incapable of doing so.
