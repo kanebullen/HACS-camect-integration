@@ -1,5 +1,5 @@
 # HACS-camect-integration
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs) 
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs) 
 [![HACS-camect-integration](https://img.shields.io/github/v/release/pfunkmallone/HACS-camect-integration.svg?1)](https://github.com/pfunkmallone/HACS-camect-integration) ![Maintenance](https://img.shields.io/maintenance/yes/2020.svg)
 
 ## What is this?
